@@ -1,0 +1,30 @@
+# Python virtual environment - never commit this
+venv/
+.venv/
+env/
+
+# Python cache files - auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables - contains secrets, NEVER commit
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
